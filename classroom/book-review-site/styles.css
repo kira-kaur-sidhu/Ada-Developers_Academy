@@ -1,0 +1,62 @@
+/* styles.css */
+
+body {
+    text-align: center;
+}
+
+main {
+    text-align: center;
+    background-color: rgb(187, 211, 187);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    list-style-type: none;
+}
+
+header, footer {
+    border: 10px;
+    border-style: solid;
+    border-color: black;
+    background-color: pink;
+}
+
+
+.book-link {
+    font-style: italic;
+}
+
+li {
+    display: inline;
+}
+
+a:hover {
+    background-color: red;
+}
+
+img {
+    height: 400px;
+    width: auto;
+    object-fit: cover;
+    padding: 10px;
+}
+
+.review {
+    background-color: rgb(186, 185, 185);
+}
+
+.para {
+    line-height: 150%;
+}
+
+.info {
+    display:grid;
+}
+
+#site {
+    background-color: red;
+    border-radius: 25px;
+
+}
+
+.no-style {
+    background-color: white;
+    border: 0px;
+}
